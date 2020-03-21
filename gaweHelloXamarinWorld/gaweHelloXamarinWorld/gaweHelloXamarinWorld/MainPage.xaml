@@ -7,10 +7,9 @@
              x:Class="gaweHelloXamarinWorld.MainPage">
 
     <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="Hello World!" 
+               HorizontalOptions="Center"
+               VerticalOptions="Start" FontAttributes="Bold" FontSize="Title" FontFamily="Arial" TextColor="Black" BackgroundColor="white" />
     </StackLayout>
 
 </ContentPage>
