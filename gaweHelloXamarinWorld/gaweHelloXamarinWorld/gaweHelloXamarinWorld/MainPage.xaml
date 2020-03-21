@@ -7,9 +7,8 @@
              x:Class="gaweHelloXamarinWorld.MainPage">
 
     <StackLayout>
-        <Label Text="Hello World!" 
-               HorizontalOptions="Center"
-               VerticalOptions="Start" FontAttributes="Bold" FontSize="Title" FontFamily="Arial" TextColor="Black" BackgroundColor="white" />
+        <Label FontFamily="Arial" FontSize="Title" HorizontalOptions="Center" VerticalOptions="Start">Hello Xamarin World</Label>
+        <Button Text="Click Me" Clicked="CountUp" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
 </ContentPage>
